@@ -6,13 +6,13 @@ class Animal:
     peces = 0
     reptiles = 0
 
-    def __init__(self, nombre, edad, habitat, genero):
-        self.nombre = nombre
-        self.edad = edad
-        self.habitat = habitat
-        self.genero = genero
-        self.zona = None
+    def __init__(self, nombre, edad, habitat, genero, zona = None):
         Animal.totalAnimales += 1
+        self._nombre = nombre
+        self._edad = edad
+        self._habitat = habitat
+        self._genero = genero
+        self.zona = zona
 
     def movimiento(self):
         return "desplazarse"
