@@ -1,4 +1,4 @@
-from zooAnimales import Mamifero;
+from zooAnimales import mamifero;
 from zooAnimales import Ave;
 from zooAnimales import Reptil;
 from zooAnimales import Pez;
@@ -7,6 +7,11 @@ from zooAnimales import Pez;
 
 class Animal:
     totalAnimales = 0
+    anfibios = 0
+    aves = 0 
+    mamiferos = 0
+    peces = 0
+    reptiles = 0
 
     def __init__(self, nombre, edad, habitat, genero):
         self.nombre = nombre
@@ -21,7 +26,12 @@ class Animal:
 
     @staticmethod
     def totalPorTipo():
-        return f"Mamíferos: {Mamifero.cantidadMamiferos()} Aves: {Ave.cantidadAves()} Reptiles: {Reptil.cantidadReptiles()} Peces: {Pez.cantidadPeces()} Anfibios: {Pez.cantidadAnfibios()}"
+        return (f"Mamiferos : {Animal.mamiferos}\n"
+                f"Aves : {Animal.aves}\n"
+                f"Reptiles : {Animal.reptiles}\n"
+                f"Peces : {Animal.peces}\n"
+                f"Anfibios : {Animal.anfibios}")
+
 
     def __str__(self):
         base = f"Mi nombre es {self.nombre}, tengo una edad de {self.edad}, habito en {self.habitat} y mi género es {self.genero}"

@@ -11,6 +11,7 @@ class Reptil(Animal):
         self.colorEscamas = colorEscamas
         self.largoCola = largoCola
         Reptil.listado.append(self)
+        Animal.reptiles += 1
 
     @staticmethod
     def crearIguana(nombre, edad, genero):

@@ -10,6 +10,7 @@ class Ave(Animal):
         super().__init__(nombre, edad, habitat, genero)
         self.colorPlumas = colorPlumas
         Ave.listado.append(self)
+        Animal.aves += 1
 
     @staticmethod
     def crearHalcon(nombre, edad, genero):

@@ -11,6 +11,7 @@ class Pez(Animal):
         self.colorEscamas = colorEscamas
         self.cantidadAletas = cantidadAletas
         Pez.listado.append(self)
+        Animal.peces += 1
 
     @staticmethod
     def crearSalmon(nombre, edad, genero):

@@ -1,3 +1,5 @@
+from .Animal import Animal
+
 class Anfibio(Animal):
     listado = []
     ranas = 0
@@ -8,6 +10,7 @@ class Anfibio(Animal):
         self.colorPiel = colorPiel
         self.venenoso = venenoso
         Anfibio.listado.append(self)
+        Animal.anfibios += 1
 
     @staticmethod
     def crearRana(nombre, edad, genero):
