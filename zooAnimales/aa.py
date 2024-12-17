@@ -4,6 +4,7 @@ from zooAnimales import Reptil;
 from zooAnimales import Pez;
 from zooAnimales import Pez;
 
+
 class Animal:
     totalAnimales = 0
 
