@@ -28,8 +28,8 @@ class Animal:
 
     def toString(self):
         base = f"Mi nombre es {self.nombre}, tengo una edad de {self.edad}, habito en {self.habitat} y mi género es {self.genero}"
-        if self.zona:
-            return base + f", la zona en la que me ubico es {self.zona.nombre}, en el {self.zona.zoologico.nombre}."
+        if self.zona and self.zona.zoo:
+            return base + f", la zona en la que me ubico es {self.zona.nombre}, en el {self.zona.zoo.nombre}."
         return base
     
      # Getters y Setters
