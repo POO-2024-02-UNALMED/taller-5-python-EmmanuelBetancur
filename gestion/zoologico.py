@@ -4,7 +4,7 @@ class Zoologico:
         self.ubicacion = ubicacion
         self.zonas = []
 
-    def agregarZonas(self, zona):
+    def agregarZona(self, zona):
         self.zonas.append(zona)
 
     def cantidadTotalAnimales(self):
@@ -24,8 +24,8 @@ class Zoologico:
     def setUbicacion(self, ubicacion):
         self.ubicacion = ubicacion
 
-    def getZonas(self):
+    def getZona(self):
         return self.zonas
 
-    def agregarZonas(self, zona):
+    def agregarZona(self, zona):
         self.zonas.append(zona)
