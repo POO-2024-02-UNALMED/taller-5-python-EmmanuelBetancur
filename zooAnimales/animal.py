@@ -26,7 +26,7 @@ class Animal:
                 f"Anfibios : {Animal.anfibios}")
 
 
-    def __str__(self):
+    def toString(self):
         base = f"Mi nombre es {self.nombre}, tengo una edad de {self.edad}, habito en {self.habitat} y mi género es {self.genero}"
         if self.zona:
             return base + f", la zona en la que me ubico es {self.zona.nombre}, en el {self.zona.zoologico.nombre}."
