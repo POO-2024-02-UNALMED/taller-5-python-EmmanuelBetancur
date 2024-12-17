@@ -13,19 +13,19 @@ class Zoologico:
     
     # Getters y Setters
     def getNombre(self):
-        return self.__nombre
+        return self.nombre
 
     def setNombre(self, nombre):
-        self.__nombre = nombre
+        self.nombre = nombre
 
     def getUbicacion(self):
-        return self.__ubicacion
+        return self.ubicacion
 
     def setUbicacion(self, ubicacion):
-        self.__ubicacion = ubicacion
+        self.ubicacion = ubicacion
 
     def getZonas(self):
-        return self.__zonas
+        return self.zonas
 
     def agregarZonas(self, zona):
-        self.__zonas.append(zona)
+        self.zonas.append(zona)

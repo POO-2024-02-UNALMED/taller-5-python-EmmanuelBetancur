@@ -29,13 +29,13 @@ class Mamifero(Animal):
         return len(cls.listado)
     
     def isPelaje(self):
-        return self.__pelaje
+        return self.pelaje
 
     def setPelaje(self, pelaje):
-        self.__pelaje = pelaje
+        self.pelaje = pelaje
 
     def getPatas(self):
-        return self.__patas
+        return self.patas
 
     def setPatas(self, patas):
-        self.__patas = patas
+        self.patas = patas

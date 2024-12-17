@@ -32,7 +32,7 @@ class Ave(Animal):
     
        # Getters y Setters
     def getColorPlumas(self):
-        return self.__colorPlumas
+        return self.colorPlumas
 
     def setColorPlumas(self, colorPlumas):
-        self.__colorPlumas = colorPlumas
+        self.colorPlumas = colorPlumas

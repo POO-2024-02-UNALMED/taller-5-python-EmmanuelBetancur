@@ -12,16 +12,16 @@ class Zona:
     
     #get y set
     def getNombre(self):
-        return self.__nombre
+        return self.nombre
 
     def setNombre(self, nombre):
-        self.__nombre = nombre
+        self.nombre = nombre
 
     def getZoologico(self):
-        return self.__zoologico
+        return self.zoologico
 
     def setZoologico(self, zoologico):
-        self.__zoologico = zoologico
+        self.zoologico = zoologico
 
     def getAnimales(self):
-        return self.__animales
+        return self.animales

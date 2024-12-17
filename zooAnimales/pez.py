@@ -30,3 +30,16 @@ class Pez(Animal):
 
     def movimiento(self):
         return "nadar"
+    
+    # Getters y Setters
+    def getColorEscamas(self):
+        return self.colorEscamas
+
+    def setColorEscamas(self, colorEscamas):
+        self.colorEscamas = colorEscamas
+
+    def getCantidadAletas(self):
+        return self.cantidadAletas
+
+    def setCantidadAletas(self, cantidadAletas):
+        self.cantidadAletas = cantidadAletas

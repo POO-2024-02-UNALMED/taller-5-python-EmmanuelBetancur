@@ -46,13 +46,13 @@ class Reptil(Animal):
 
      # Getters y Setters
     def getColorEscamas(self):
-        return self.__colorEscamas
+        return self.colorEscamas
 
     def setColorEscamas(self, colorEscamas):
-        self.__colorEscamas = colorEscamas
+        self.colorEscamas = colorEscamas
 
-    def getCantidadAletas(self):
-        return self.__cantidadAletas
+    def getLargoCola(self):
+        return self.largoCola
 
-    def setCantidadAletas(self, cantidadAletas):
-        self.__cantidadAletas = cantidadAletas
+    def setLargoCola(self, largoCola):
+        self.largoCola = largoCola

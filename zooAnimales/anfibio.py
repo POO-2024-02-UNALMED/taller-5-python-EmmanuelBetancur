@@ -32,13 +32,13 @@ class Anfibio(Animal):
     
      # Getters y Setters
     def getColorPiel(self):
-        return self.__colorPiel
+        return self.colorPiel
 
     def setColorPiel(self, colorPiel):
-        self.__colorPiel = colorPiel
+        self.colorPiel = colorPiel
 
     def isVenenoso(self):
-        return self.__venenoso
+        return self.venenoso
 
     def setVenenoso(self, venenoso):
-        self.__venenoso = venenoso
+        self.venenoso = venenoso
