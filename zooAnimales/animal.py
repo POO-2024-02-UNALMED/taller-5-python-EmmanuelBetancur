@@ -35,28 +35,28 @@ class Animal:
     
      # Getters y Setters
     def getNombre(self):
-        return self.nombre
+        return self._nombre
 
     def setNombre(self, nombre):
-        self.nombre = nombre
+        self._nombre = nombre
 
     def getEdad(self):
-        return self.edad
+        return self._edad
 
     def setEdad(self, edad):
-        self.edad = edad
+        self._edad = edad
 
     def getHabitat(self):
-        return self.habitat
+        return self._habitat
 
     def setHabitat(self, habitat):
-        self.habitat = habitat
+        self._habitat = habitat
 
     def getGenero(self):
-        return self.genero
+        return self._genero
 
     def setGenero(self, genero):
-        self.genero = genero
+        self._genero = genero
 
     def getZona(self):
         return self.zona
