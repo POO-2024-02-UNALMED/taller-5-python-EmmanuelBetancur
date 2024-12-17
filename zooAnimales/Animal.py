@@ -1,10 +1,3 @@
-from zooAnimales import mamifero;
-from zooAnimales import Ave;
-from zooAnimales import Reptil;
-from zooAnimales import Pez;
-from zooAnimales import Pez;
-
-
 class Animal:
     totalAnimales = 0
     anfibios = 0
