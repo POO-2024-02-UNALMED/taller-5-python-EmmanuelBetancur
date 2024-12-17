@@ -29,3 +29,16 @@ class Anfibio(Animal):
 
     def movimiento(self):
         return "saltar"
+    
+     # Getters y Setters
+    def getColorPiel(self):
+        return self.__colorPiel
+
+    def setColorPiel(self, colorPiel):
+        self.__colorPiel = colorPiel
+
+    def isVenenoso(self):
+        return self.__venenoso
+
+    def setVenenoso(self, venenoso):
+        self.__venenoso = venenoso

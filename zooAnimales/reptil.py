@@ -30,3 +30,29 @@ class Reptil(Animal):
 
     def movimiento(self):
         return "reptar"
+    
+      # Getters y Setters
+    def getColorEscamas(self):
+        return self.__colorEscamas
+
+    def setColorEscamas(self, colorEscamas):
+        self.__colorEscamas = colorEscamas
+
+    def getLargoCola(self):
+        return self.__largoCola
+
+    def setLargoCola(self, largoCola):
+        self.__largoCola = largoCola
+
+     # Getters y Setters
+    def getColorEscamas(self):
+        return self.__colorEscamas
+
+    def setColorEscamas(self, colorEscamas):
+        self.__colorEscamas = colorEscamas
+
+    def getCantidadAletas(self):
+        return self.__cantidadAletas
+
+    def setCantidadAletas(self, cantidadAletas):
+        self.__cantidadAletas = cantidadAletas

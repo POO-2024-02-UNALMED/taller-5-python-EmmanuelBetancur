@@ -29,3 +29,10 @@ class Ave(Animal):
 
     def movimiento(self):
         return "volar"
+    
+       # Getters y Setters
+    def getColorPlumas(self):
+        return self.__colorPlumas
+
+    def setColorPlumas(self, colorPlumas):
+        self.__colorPlumas = colorPlumas
